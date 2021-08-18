@@ -1,0 +1,22 @@
+:root {
+  --pink: #e68cb6;
+}
+
+/* NOTE no longer needed due to bootstrap .d-flex.flex-column */
+body {
+  /* display: flex;
+  flex-direction: column; */
+  min-height: 100vh;
+}
+
+/* NOTE no longer needed due to bootstrap .flex-grow-1 */
+main {
+  /* flex-grow: 1; */
+}
+
+/* EXAMPLE ONLY it looks bad */
+@media screen AND (max-width: 486px) {
+  body {
+    background-color: brown;
+  }
+}
